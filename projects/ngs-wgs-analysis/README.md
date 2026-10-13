@@ -1,30 +1,32 @@
-# NGS/WGS Practice Project
+# NGS/WGS Quality Control Analysis
 
-## Objective
-To learn a basic NGS data analysis workflow using public sequencing data.
+## Project Overview
 
-## Step 1: FASTQ Quality Control
-Tool: FastQC
+This project demonstrates a practical bioinformatics workflow for quality control and preprocessing of paired-end sequencing reads from sample ERR1485610.
 
-Purpose:
-- Check per-base sequence quality
-- Inspect GC content and adapter contamination
-- Identify potential quality issues
+## Tools Used
 
-## Step 2: Read Trimming
-Tool: fastp
+- **FastQC:** Initial sequencing quality assessment
+- **fastp:** Quality filtering and adapter trimming
+- **MultiQC:** Combined quality-control report
 
-Purpose:
-- Remove adapter sequences when present
-- Filter low-quality reads
-- Generate trimming statistics
+## Workflow
 
-## Step 3: Post-trimming Quality Check
-Tools: FastQC and MultiQC
+1. FastQC analysis of paired-end reads
+2. Read filtering and trimming using fastp
+3. Post-trimming quality assessment using FastQC and MultiQC
 
-Purpose:
-- Review quality after trimming
-- Summarize quality reports
+## Reports
 
-## Status
-In progress. Reports and results will be added after verification.
+- [FastQC Report — Read 1](ERR1485610_1_fastqc.html)
+- [FastQC Report — Read 2](ERR1485610_2_fastqc.html)
+- [fastp Report](ERR1485610_fastp.html)
+- [MultiQC Summary Report](multiqc_report.html)
+
+## Project Objective
+
+To gain practical experience in NGS data quality control and preprocessing using public sequencing data.
+
+## Project Status
+
+Learning and portfolio project.
