@@ -38,6 +38,17 @@ This project demonstrates a practical bioinformatics workflow for quality contro
 
 The FastQC and fastp reports were consolidated using MultiQC for quality assessment. These results summarize the preprocessing stage before downstream alignment and variant analysis.
 
+### Alignment Summary
+
+Alignment was performed using BWA-MEM against the GRCh38 reference genome. Alignment statistics were generated using `samtools flagstat` from the recalibrated BAM file.
+
+- **Total reads:** 895,980
+- **Mapped reads:** 99.99%
+- **Properly paired reads:** 99.22%
+- **Duplicate reads:** 33,357
+
+**Output file:** [`alignment_summary.txt`](alignment_summary.txt)
+
 
 
 ## Project Objective
