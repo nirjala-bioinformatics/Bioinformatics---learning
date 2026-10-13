@@ -21,6 +21,7 @@ This project demonstrates a practical bioinformatics workflow for quality contro
 - [FastQC Report — Read 1](ERR1485610_1_fastqc.html)
 - [FastQC Report — Read 2](ERR1485610_2_fastqc.html)
 - [fastp Report](ERR1485610_fastp.html)
+- [MultiQC Report — ERR1485610 (Single Sample)](ERR1485610_multiqc_report.html)
 - [MultiQC Summary Report](multiqc_report.html)
 
 ## Project Objective
