@@ -38,14 +38,7 @@ This project demonstrates a practical bioinformatics workflow for quality contro
 
 The FastQC and fastp reports were consolidated using MultiQC for quality assessment. These results summarize the preprocessing stage before downstream alignment and variant analysis.
 
-## Project Overview
 
-This project demonstrates a practical bioinformatics workflow for quality control and preprocessing of paired-end sequencing reads from sample ERR1485610.
-
-## Tools Used
-
-- **FastQC:** Initial sequencing quality assessment
-- **fastp:** Quality filtering and adapter trimming
 
 ## Project Objective
 
