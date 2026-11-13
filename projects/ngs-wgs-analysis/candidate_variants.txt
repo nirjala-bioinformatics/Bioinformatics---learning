@@ -1,0 +1,43 @@
+Sample: ERR1485610
+
+Reference genome: GRCh38
+
+Annotation tool: Ensembl VEP 116.3
+
+## HIGH-impact candidate variants
+
+### 1. HRH2
+
+- Chromosome: NC_000005.10
+- Position: 175682708
+- Reference allele: G
+- Alternate allele: A
+- Predicted consequence: Splice acceptor variant
+- VEP impact: HIGH
+- Genotype: 1/1
+- Read depth (DP): 2
+- Genotype quality (GQ): 6
+- Allele depth (AD): 0,2
+
+**Interpretation:** Very low read support and genotype quality. This candidate requires careful validation.
+
+### 2. TROAP
+
+- Chromosome: NC_000012.12
+- Position: 49330601
+- Reference allele: C
+- Alternate allele: CATGCAAGCGTACTGTCTCTTATA
+- Predicted consequence: Frameshift variant
+- VEP impact: HIGH
+- Genotype: 1/1
+- Read depth (DP): 13
+- Genotype quality (GQ): 39
+- Allele depth (AD): 0,13
+
+**Interpretation:** Comparatively stronger read support than HRH2, but further validation is still required.
+
+## Important limitation
+
+HIGH impact indicates predicted functional consequence severity. It does not establish clinical pathogenicity.
+
+Due to very low overall sequencing depth, these variants should be considered preliminary candidates, not confirmed findings.
