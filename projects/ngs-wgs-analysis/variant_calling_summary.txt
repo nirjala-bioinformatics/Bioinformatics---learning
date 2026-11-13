@@ -1,0 +1,22 @@
+Sample: ERR1485610
+
+Reference genome: GRCh38
+
+Variant calling tool: GATK HaplotypeCaller and GenotypeGVCFs
+
+**Variant calling results:**
+
+- Total PASS variant records: 3,211
+- SNPs: 2,476
+- INDELs: 735
+- Multiallelic sites: 64
+
+**Genotype quality assessment:**
+
+- Records with DP below 10: 730 (22.73%)
+- Records with GQ below 20: 515 (16.04%)
+- Records with both DP below 10 and GQ below 20: 493 (15.35%)
+
+**Conclusion:**
+
+Variants were identified using the GATK variant-calling workflow. Although these records passed the applied variant filters, some showed low read depth and genotype quality. Therefore, the findings should be considered preliminary and require further validation.
