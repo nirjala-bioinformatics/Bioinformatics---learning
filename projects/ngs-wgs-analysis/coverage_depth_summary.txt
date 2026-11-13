@@ -1,0 +1,16 @@
+Sample: ERR1485610  
+Reference genome: GRCh38
+
+**Mean depth:** 0.0335207x
+
+**Coverage at different depth thresholds:**
+- Coverage >= 1x: 0.1318%
+- Coverage >= 10x: 0.0544%
+- Coverage >= 20x: 0.0410%
+- Coverage >= 30x: 0.0325%
+
+**Note:**
+
+The sample showed very low mean depth and coverage across positions assessed in the BAM reference contigs.
+
+Variant findings should be treated as preliminary candidates, not clinically confirmed results.
