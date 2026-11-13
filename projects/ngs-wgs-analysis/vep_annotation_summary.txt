@@ -1,0 +1,30 @@
+Sample: ERR1485610
+
+Annotation tool: Ensembl Variant Effect Predictor (VEP)
+
+VEP version: 116.3
+
+Reference assembly: GRCh38
+
+**Annotation summary:**
+
+- Input PASS VCF records: 3,211
+- Records annotated by VEP: 3,210
+- Records skipped: 1 (contig not supported by annotation sources)
+
+**Predicted variant consequences:**
+
+- Missense variants: 56 transcript-level annotations
+- Synonymous variants: 58 transcript-level annotations
+- Intron variants: 17,295 transcript-level annotations
+- HIGH-impact candidate records: 2
+- MODERATE-impact candidate records: 12
+
+**Important findings:**
+
+- HRH2: Splice acceptor variant (HIGH)
+- TROAP: Frameshift variant (HIGH)
+
+**Conclusion:**
+
+VEP predicted the functional consequences of identified variants. HIGH and MODERATE impact categories indicate predicted consequence severity, not clinical pathogenicity. Further validation is required, particularly because the sample has very low sequencing depth.
