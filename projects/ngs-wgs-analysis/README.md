@@ -58,3 +58,68 @@ To gain practical experience in NGS data quality control and preprocessing using
 ## Project Status
 
 Learning and portfolio project.
+## Downstream Analysis
+
+### Reference Genome and Alignment
+
+- Reference genome: GRCh38
+- Alignment tool: BWA-MEM
+- BAM processing: SAMtools and Picard
+- Base quality score recalibration: GATK
+
+### Coverage and Depth Summary
+
+| Metric | Result |
+|---|---:|
+| Mean depth | 0.0335207× |
+| Coverage at 1× | 0.1318% |
+| Coverage at 10× | 0.0544% |
+| Coverage at 20× | 0.0410% |
+| Coverage at 30× | 0.0325% |
+
+See [coverage_depth_summary.txt](coverage_depth_summary.txt).
+
+### Variant Calling
+
+Variant calling was performed using GATK HaplotypeCaller and GenotypeGVCFs.
+
+| Metric | Result |
+|---|---:|
+| PASS variant records | 3,211 |
+| SNPs | 2,476 |
+| INDELs | 735 |
+| Multiallelic sites | 64 |
+
+See [variant_calling_summary.txt](variant_calling_summary.txt).
+
+### Functional Annotation
+
+Variants were annotated using Ensembl Variant Effect Predictor (VEP) version 116.3.
+
+- Input PASS records: 3,211
+- Annotated records: 3,210
+- HIGH-impact candidate records: 2
+- MODERATE-impact candidate records: 12
+
+See [vep_annotation_summary.txt](vep_annotation_summary.txt).
+
+### Candidate Variants
+
+Two HIGH-impact candidate variants were identified:
+
+- **HRH2:** Predicted splice acceptor variant.
+- **TROAP:** Predicted frameshift variant.
+
+See [candidate_variants.txt](candidate_variants.txt) for details.
+
+## Limitations
+
+The sample showed extremely low mean sequencing depth (approximately 0.0335×) and low coverage across positions assessed in the BAM reference contigs.
+
+Therefore, variant calls and predicted consequences should be treated as preliminary computational findings. They are not clinically validated or confirmed pathogenic variants.
+
+## Conclusion
+
+This project provided practical experience in a human WGS bioinformatics workflow, including quality control, read alignment, BAM processing, variant calling, functional annotation, and interpretation of sequencing quality limitations.
+
+**Project type:** Independent secondary analysis of public WGS data for learning and portfolio development.
