@@ -26,6 +26,9 @@ This project focuses on tumour-only Whole Exome Sequencing (WES) data analysis o
 10. Variant Filtering – FilterMutectCalls
 11. Functional Annotation – Ensembl VEP
 12. Candidate Variant Review – IGV and Franklin
+## Workflow Diagram
+
+![TNBC WES Analysis Workflow](tnbc-wes-workflow.png)
 
 ## Key Results
 
