@@ -42,6 +42,18 @@ This project focuses on tumour-only Whole Exome Sequencing (WES) data analysis o
 | PASS variant records | 983 |
 
 Six candidate variants were prioritised for further review involving KMT2C, TP53, BRIP1, GNAS, ACADVL and CENPF.
+## Candidate Variant Summary
+
+| Gene | Protein Change | Consequence |
+|---|---|---|
+| KMT2C | p.Arg679* | Stop gained |
+| TP53 | p.Leu194Arg | Missense |
+| BRIP1 | c.1794+1G>A | Splice donor |
+| GNAS | p.Ser227* | Stop gained |
+| ACADVL | p.Cys607Ser | Missense |
+| CENPF | p.Gln2057* | Stop gained |
+
+*These are prioritised candidate variants from tumour-only analysis. Their somatic origin and clinical significance have not been confirmed.*
 
 ## Tools and Technologies
 
