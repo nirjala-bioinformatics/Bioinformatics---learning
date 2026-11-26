@@ -101,15 +101,15 @@ CIViC contains gene-level evidence related to KMT2C loss and treatment response 
 
 IGV was used to inspect read-level support for the selected candidate variants.
 
+## IGV Visualization
+
 ### BRIP1
 
-![BRIP1 IGV Visualization](images/BRIP1_IGV.jpeg)
+![BRIP1 IGV Visualization](BRIP1%20.png)
 
 ### KMT2C
 
-![KMT2C IGV Visualization](images/KMT2C_IGV.jpeg)
-
-*The actual IGV screenshots are stored in the `images` folder.*
+![KMT2C IGV Visualization](KMT2C.png)
 
 ## Tools and Technologies
 
