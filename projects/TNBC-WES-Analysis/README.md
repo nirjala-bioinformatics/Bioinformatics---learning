@@ -33,10 +33,6 @@ To identify and functionally annotate genetic variants in TNBC tumour WES data a
 11. **Functional Annotation:** Ensembl VEP
 12. **Candidate Variant Review:** IGV
 
-## Workflow Diagram
-
-![TNBC WES Analysis Workflow](tnbc-wes-workflow.png)
-
 ## BAM Processing and Alignment Results
 
 BAM processing was performed using SAMtools, Picard and GATK.
